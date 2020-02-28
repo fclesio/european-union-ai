@@ -121,7 +121,7 @@ def get_word_frequency(df):
 
     fig = plt.figure(figsize=(18, 6))
     sns.barplot(x=df_common_words, y=df_common_counts)
-    plt.title(f"Most Common Words used Brazilian Constitution")
+    plt.title(f"Most Common Words used in European Commission White Paper on AI")
     plt.xticks(rotation=45)
     plt.show()
 
@@ -133,7 +133,7 @@ def show_wordcloud(text):
     # Display the generated image:
     fig = plt.figure(figsize=(25, 10))
     plt.imshow(wordcloud, interpolation="bilinear")
-    plt.title(f"Word Cloud for European Commission white paper on AI", fontsize=20)
+    plt.title(f"Word Cloud for European Commission White Paper on AI", fontsize=20)
     plt.axis("off")
     plt.show()
 
